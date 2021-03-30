@@ -18,8 +18,12 @@ then
    
 while true
 do
-     
-    if [[ $x -ge 100 ]]
+    if [[ $x -eq 100 ]]
+        then
+        amixer -D pulse sset Master 99%
+        break
+    fi
+    if [[ $x -ge 101 ]]
         then
     x=$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,' ) && echo "NOT_TURNED_DOWN_YET" && sleep 1s && if [[ $x -le 100 ]] ; then break; else echo YEP_NOT_TURNED_DOWN_YET_WHOOPS; fi
     
