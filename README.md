@@ -16,6 +16,9 @@ I usually place it in; ``/opt/`` making the final path ``/opt/warning-sound-if-v
 
 Make a startup program using the "Startup Applications" GUI in which the command is ``bash /path/to/warning-sound-if-volume-is-100-percent.sh`` (that command usually being ``bash /opt/warning-sound-if-volume-is-100-percent/warning-sound-if-volume-is-100-percent.sh``, then restart your computer.
 
+# Companion script recommendation
+I strongly recommend using this script, in combination with another script of mine, which will limit the volume maximum to 100%, [https://gitlab.com/Novimatrem/limit-pulseaudio-max-volume-to-100-percent](https://gitlab.com/Novimatrem/limit-pulseaudio-max-volume-to-100-percent)
+
 # License (code)
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
