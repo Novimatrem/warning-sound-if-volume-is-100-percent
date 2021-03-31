@@ -8,8 +8,8 @@ then
     echo LEVEL_IS_FINE__SKIP
 fi
 
-echo "sleep 1s to reduce cpu usage"
-sleep 1s
+echo "sleep 0.24s to reduce cpu usage"
+sleep 0.24s
 
 if [[ $x -ge 100 ]]
 then
