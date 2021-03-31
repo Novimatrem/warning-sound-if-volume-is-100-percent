@@ -8,6 +8,9 @@ then
     echo LEVEL_IS_FINE__SKIP
 fi
 
+echo "sleep 1s to reduce cpu usage"
+sleep 1s
+
 if [[ $x -ge 100 ]]
 then
     echo 100_DETECTED__WARNING
@@ -41,4 +44,4 @@ done
 # initial code snippet (broken) provided by unix stackexchange user Akash Kumar Singh, thanks
 # first release and code fixup and improvement by Novimatrem as 'limit-pulseaudio-max-volume-to-100-percent', forked and modified for this.
 
-amixer -D pulse sset Master 99%
+#amixer -D pulse sset Master 99%
