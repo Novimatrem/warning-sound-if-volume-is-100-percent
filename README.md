@@ -7,6 +7,8 @@ Licensed under the GNU GPL v3.0.
 
 REQUIRES and DEPENDS UPON ``pulseaudio``, ``pactl``, ``libnotify-bin`` (``the notify-send command``).
 
+There is a 50% variant in the folder for if 100% is too much on your hardware/preference.
+
 # Installation
 Clone the contents of this repo into a folder where it will be safely accessible in the future; ``git clone https://gitlab.com/Novimatrem/warning-sound-if-volume-is-100-percent``
 
