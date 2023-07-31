@@ -1,5 +1,7 @@
 # warning-sound-if-volume-is-100-percent
 
+# (there is a 50% warning version in the folder too!!)
+
 Warning sound if volume is 100%, to help warn against hearing damage
 Licensed under the GNU GPL v3.0.
 
